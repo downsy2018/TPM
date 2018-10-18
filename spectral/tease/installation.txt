@@ -1,0 +1,6 @@
+How To Install
+
+1). Unzip and FTP upload the "/tease" folder to your web host/server
+2). Open your landing page in your browser using the url: http://www.yourdomain.com/tease/
+
+To customize your landing page, start here: http://rocketlanders.com/docs
