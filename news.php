@@ -1,6 +1,57 @@
 ﻿<?php include("title_selector.php"); ?>
 <?php include("header.php"); ?>
 
+<style>
+.gridContainer {
+    height: 5000px;
+}
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+}
+</style>
+
 <!-- Main -->
     <article id="mainNews">
         <header>
@@ -9,7 +60,80 @@
         </header>
         <section class="wrapper style5">
             <div class="inner">
-                <h1>June updates</h1>
+                <h1>September updates</h1>
+				
+				<h2>Centenary Walks – 60 kilometres for 60 years</h2>
+				<p>2018 marks the Centenary year of the first votes for women in the UK.  In recognition of Millicent Fawcett’s 60 year campaign, I’m going to be walking 60k - one kilometer for each year - with every step a celebration of an entire life devoted to a cause.  To achieve the target, I’m going to do a series of 10k walks with six inspirational women and record something of the conversations as podcasts so we can share the experience after the event.</p>
+				
+				<p>Please will you sponsor our 60 kilometre challenge?  The money raised will help support the <a href="https://www.fawcettsociety.org.uk" target="_new">Fawcett Society</a> to continue its work to keep women's rights on the political agenda, and affect real change.  Please follow this link to donate – no matter how small, everything counts.</p>
+				
+				<a href="https://www.fawcettsociety.org.uk/fundraisers/centenary-fundraising-for-future-generations" target="_new">https://www.fawcettsociety.org.uk/fundraisers/centenary-fundraising-for-future-generations</a>
+				
+				<hr />
+
+				<!-- 1st row verticaly centered text in the square columns -->
+
+				<div class="square img_1-1">
+					<h3>Rachel Ellison MBE</h3>
+					<div class="container">
+					  <img src="images/img-1.png" alt="Avatar" class="image">
+					  <div class="overlay">
+						<div class="text">is a former BBC news correspondent and human rights development aid director, Afghanistan, Kenya and the former Soviet Union. She is now an executive leadership coach specialising in emerging economies and working inter-culturally. Rachel was awarded an MBE for the promotion of human rights and the self-empowerment of women in Afghanistan.</div>
+					  </div>
+					</div>					
+				</div>
+
+				<div class="square img_1-2">
+					<h3>Charmaine Kwame</h3>
+					<div class="container">
+					  <img src="images/img-2.png" alt="Avatar" class="image">
+					  <div class="overlay">
+						<div class="text">is the National Programme Lead for the NHS Leadership Academy. she is a strong advocate for the transformative power of coaching and mentoring in healthcare to create a fully diverse and inclusive workforce of the future.  She’s also a mum, a foster carer, movie geek, coach and mentor to many.</div>
+					  </div>
+					</div>	
+				</div>
+
+				<div class="square img_1-3">
+					<h3>Big Fat Greek Mother!</h3>
+					<div class="container">
+					  <img src="images/img-3.png" alt="Avatar" class="image">
+					  <div class="overlay">
+						<div class="text">Character comedienne Big Fat Greek Mother! (or Olga Thompson as she is more commonly known) is a character-playing, kebab-wielding, 80s-dressing, beard-flashing and plate-smashing actress, wife & mother of 3 Greek Gods! Rumour has it that some of her alter egos will be joining Nicki on their travels...</div>
+					  </div>
+					</div>	
+				</div>
+
+				<!-- 2nd row verticaly centered images in square columns -->
+
+				<div class="square img_2-1">
+					<h3>Nadia Nagamootoo</h3>
+					<div class="container">
+					  <img src="images/img-4.png" alt="Avatar" class="image">
+					  <div class="overlay">
+						<div class="text">is the Founder and Director of Avenir Consulting. Her ground breaking research on men working flexibly and the systemic impact on women, organisations and society has achieved significant publicity and attention.  In 2018, she led the Equal Lives research on behalf of Business in the Community providing recommendations to breaking the barriers men face in their caring responsibilities.</div>
+					  </div>
+					</div>
+				</div>
+				<div class="square img_2-2">
+					<h3>Sarah</h3>
+					<div class="container">
+					  <img src="images/img-5.png" alt="Avatar" class="image">
+					  <div class="overlay">
+						<div class="text">is a former director of a large blue-chip organisation. She left full time employment to start her own business and adopt two children.  She describes the change as ‘immediate’, going from a high level commercial role, to being a full time mother in a matter of weeks.  Her story is one of multiple transitions, challenges and transformative relationships.</div>
+					  </div>
+					</div>
+				</div>
+				<div class="square img_2-3" style="margin-bottom: 150px;">
+					<h3>Joeli Brearley</h3>
+					<div class="container">
+					  <img src="images/img-6.png" alt="Avatar" class="image">
+					  <div class="overlay">
+						<div class="text">is a campaigner and founder of Pregnant Then Screwed.  Her five demands for legislative change have gathered over 100,000 signatures and are supported by 103 MPs. She is currently leading on a project to make Greater Manchester the first city region to eliminate pregnancy and maternity discrimination, partnering with the EHRC and Greater Manchester Mayor, Andy Burnham.</div>
+					  </div>
+					</div>
+				</div>	
+				
+				<h1>June updates</h1>
 				
 				<h2>Greater Manchester is Working Forward</h2>
 				<p>Testament to the power of a movement and getting people together to make a difference, this month we got together with Helen Skelton, Joeli Brearley and the EHRC’s Working Forward group on a mission to end maternity discrimination across the Manchester region.  We heard some shocking statistics, important stories and good practice approaches from a range of employers.  Delighted to be on the panel of experts along with Sue Coe (EHRC), Danielle Ayres (Gorvins Solicitors) and Helen Wright (923jobs).  Mayor Andy Burnham’s input and commitment set the standard for other regions to follow;</p>
@@ -49,10 +173,10 @@
                     <div class="image"><img src="/images/gc.jpg" alt="" /></div>
                 </section>
 
-                <hr />
+               <hr />
 
-                <h2>Wisdom for Working Mums</h2>
-                <p>Nicky Lowe is an exec coach and working mum.  They do say it takes a maternity leave to create a business and in her case this is exactly what she’s done!  Nicki S was excited to be interviewed by Nicki L for one of her podcast shows – click here to listen.</p>
+               <h2>Wisdom for Working Mums</h2>
+               <p>Nicky Lowe is an exec coach and working mum.  They do say it takes a maternity leave to create a business and in her case this is exactly what she’s done!  Nicki S was excited to be interviewed by Nicki L for one of her podcast shows – <a href="https://wisdomforworkingmums.co.uk/podcasts/supporting-working-parents-in-the-workplace/" target="_new">click here</a> to listen.</p>
 
                 <section class="spotlightV2" style="text-align: center;">
                     <div class="image"><img src="/images/interview.jpg" alt="" /></div>
