@@ -58,9 +58,32 @@
             <h2>In the news</h2>
 		    <p>What’s happening with The Parent Mentor</p>
         </header>
-        <section class="wrapper style5">
+        
+				<section class="spotlight">
+					<div class="image"><img src="images/CWP.jpg" alt="" /></div>
+					<div class="content">
+						<h2>December updates</h2>
+						<p>100 years ago this week, women were able to cast their votes for the first time in a general election. Over the last couple of months I’ve been walking 60 kilometers - a kilometer for every year Millicent Fawcett campaigned for women to have the right to vote. I’ve had the opportunity to walk with some inspirational women who have much to say about voting, the drive for equality, the challenges of working parenthood and their hopes and aspirations for future generations. These conversations have been captured in a series of podcasts and I’m delighted to share my first podcast in conversation with Rachel Ellison MBE.  A former BBC correspondent and human rights development aid director, Rachel is now an executive leadership coach specialising in emerging economies and working inter-culturally.  Rachel was awarded an MBE for the promotion of human rights and the self-empowerment of women in Afghanistan.</p>	
+					</div>
+				</section>
+		
+		<section class="wrapper style5">
             <div class="inner">
-                <h1>September updates</h1>
+        												
+				<section style="text-align: center;">
+					<h4 style="margin-bottom: 0px;">You can listen below</h4>
+					<a href="/podcast/Podcast1.mp3" download>or download the podcast here</a>
+					<div class="image" style="margin-bottom: 25px;"><img src="/images/CWP1.png" alt="" style="margin-top: 20px;" /></div>
+					<audio controls>
+					  <source src="/podcast/Podcast1.mp3" type="audio/ogg">
+					  <source src="/podcast/Podcast1.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+					</audio>
+				</section>
+				
+				<hr />
+				
+				<h1>September updates</h1>
 				
 				<h2>Centenary Walks – 60 kilometres for 60 years</h2>
 				<p>2018 marks the Centenary year of the first votes for women in the UK.  In recognition of Millicent Fawcett’s 60 year campaign, I’m going to be walking 60k - one kilometer for each year - with every step a celebration of an entire life devoted to a cause.  To achieve the target, I’m going to do a series of 10k walks with six inspirational women and record something of the conversations as podcasts so we can share the experience after the event.</p>
