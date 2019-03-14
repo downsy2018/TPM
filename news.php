@@ -60,6 +60,28 @@
         </header>
 		
 		<section class="spotlight">
+            <div class="image"><img src="images/pod3.jpg" alt="" /></div><div class="content">
+                <h2>March Updates</h2>
+                <p>Join us on our next Centenary walk, in which Nicki walks with Nadia Nagamootoo of Avenir Consulting.  Together they explore the role of fathers and the need for more inclusive cultures in organisations where both mothers AND fathers are encouraged to be more active and involved in their children’s lives.  Nadia shares insights from her 2018 research which revealed where men are encouraged to take a greater share in parental caring responsibilities this can have a profound effect on female career progression.  In the mission for gender equality, we clearly need to talk about men!</p>               
+            </div>
+        </section>
+		
+		<section class="wrapper style5">
+            <div class="inner">	
+				<section style="text-align: center;">
+					<h4 style="margin-bottom: 0px;">You can listen below</h4>
+					<a href="/podcast/Podcast3.mp3" download>or download the podcast here</a>
+					<div class="image" style="margin-bottom: 25px;"><img src="/images/CW3.jpg" alt="" style="margin-top: 20px;" /></div>
+					<audio controls>
+					  <source src="/podcast/Podcast3.mp3" type="audio/ogg">
+					  <source src="/podcast/Podcast3.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+					</audio>
+				</section>
+			</div>
+		</section>
+		
+		<section class="spotlight">
             <div class="image"><img src="images/pod2.jpg" alt="" /></div><div class="content">
                 <h2>February Updates</h2>
                 <p>Get ready for the second instalment of our Centenary Walks podcasts! In this episode Nicki walks her next 10k with Joeli Brearley - campaigner and founder of Pregnant Then Screwed.  Together they tackle the scale and impact of maternity discrimination, the rise in NDAs to silence women and conceal poor practice, the potential for Brexit to derail hard fought Maternity rights and the future of grassroots movements. Keep an ear out for Jack’s (Jolie’s toddler) first take on all this!</p>               
